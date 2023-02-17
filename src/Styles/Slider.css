@@ -1,0 +1,88 @@
+.Swiper_Container .swiper {
+    width: 70%;
+    height: 12rem;
+    position: unset;
+    margin-top: 1rem;
+}
+
+.Swiper_Container .swiper-slide {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Swiper_Container .swiper-button-prev {
+    color: black;
+    margin-top: 18rem;
+    margin-left: 7rem;
+}
+
+.Swiper_Container .swiper-button-next {
+    color: black;
+    margin-top: 18rem;
+    margin-right: 7rem;
+}
+
+.Swiper_Container .leftside {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name>:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.name>:nth-child(3) {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+button {
+    width: 70px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 1rem;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.Image img {
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    transform: rotate(-20deg);
+    overflow: hidden;
+}
+
+@media screen and (min-width:0px) and (max-width:999px) {
+    .Swiper_Container .swiper {
+        width: 90%;
+        height: 12rem;
+        position: unset;
+        margin-top: 1rem;
+    }
+
+
+    .Swiper_Container .swiper-button-prev {
+        display: none;
+    }
+
+    .Swiper_Container .swiper-button-next {
+        display: none;
+    }
+}

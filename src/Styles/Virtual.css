@@ -1,0 +1,112 @@
+.VirtualContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+}
+
+.VirtualContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.VirtualContent img {
+    width: 30%;
+}
+
+.VirtualContent h1 {
+    font-size: 40px;
+    margin-bottom: -6px;
+}
+
+.VirtualContent p {
+    font-size: 30px;
+    margin-bottom: -6px;
+}
+
+.VirtualContent h3 {
+    font-size: 25px;
+}
+
+.BeforeAfterImage {
+    width: 30%;
+}
+
+@media screen and (min-width:500px) and (max-width:768px) {
+    .VirtualContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+    }
+
+    .VirtualContent {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+
+    .VirtualContent img {
+        width: 30%;
+
+    }
+
+    .VirtualContent h1 {
+        font-size: 30px;
+        margin-bottom: -6px;
+    }
+
+    .VirtualContent p {
+        font-size: 20px;
+        margin-bottom: -6px;
+    }
+
+    .VirtualContent h3 {
+        font-size: 20px;
+    }
+
+    .BeforeAfterImage {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .VirtualContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+    }
+
+    .VirtualContent {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+
+    .VirtualContent img {
+        width: 30%;
+    }
+
+    .VirtualContent h1 {
+        font-size: 30px;
+        margin-bottom: -6px;
+    }
+
+    .VirtualContent p {
+        font-size: 20px;
+        margin-bottom: -6px;
+    }
+
+    .VirtualContent h3 {
+        font-size: 20px;
+    }
+
+    .BeforeAfterImage {
+        width: 60%;
+    }
+}
