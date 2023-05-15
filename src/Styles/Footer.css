@@ -7,7 +7,8 @@
     padding-bottom: 3rem;
     margin-top: 10%;
     background-color: #08012C;
-    color: rgb(255, 255, 255);}
+    color: rgb(255, 255, 255);
+}
 
 .Contact {
     width: 15%;
@@ -22,7 +23,6 @@
 }
 
 .logo span {
-    /* color: wheat; */
     margin-left: 2px;
 }
 
